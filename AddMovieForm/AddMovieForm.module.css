@@ -1,0 +1,131 @@
+/* Small Screen */
+.container {
+  margin: 1rem;
+  column-count: 2;
+}
+
+.addmovieform {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.addmovieform__left {
+  margin-bottom: 1rem;
+  padding-right: 10px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.addmovieform__right {
+  margin-bottom: 1rem;
+  padding-left: 80px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.addmovieform__title {
+  color: #4361ee;
+  margin-bottom: 1rem;
+  font-size: 2.44rem;
+  padding-right: 60px;
+}
+
+.addmovieform__group {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.addmovieform__label {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin: 5px;
+  font-size: x-large;
+}
+
+.addmovieform__input {
+  margin-bottom: 1rem;
+  outline: none;
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: large;
+}
+
+.addmovieform_group2 {
+  text-align: left;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.addmovieform_picture {
+  margin-bottom: 1rem;
+  outline: none;
+  width: 50%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: large;
+}
+
+.addmovieform_select {
+  margin-bottom: 1rem;
+  padding: 8px 10px;
+  border-radius: 5px;
+  margin: 10px;
+  padding-left: 30px;
+
+}
+
+.addmovieform__button {
+  padding: 0.7rem 3rem;
+  margin: 8px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4361ee;
+  color: white;
+  width: 80%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.addmovieform__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+  .addmovieaddmovieform__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .addmovieaddmovieform {
+    flex-basis: 50%;
+  }
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+    margin: 3rem auto;
+  }
+
+  .addmovieaddmovieform {
+    flex-basis: 25%;
+    padding: 1rem;
+  }
+}
